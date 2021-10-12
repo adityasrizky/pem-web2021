@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS Reset - End */
+
+body {
+    font: 16px/28px 'Rubik', sans-serif;
+    background-image: url(../assets/image/bg-page.jpg);
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(0, 91, 128);
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+header {
+    padding: 20px;
+    padding-top: 30px;
+    border-bottom: 5px double skyblue;
+}
+
+header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    color: yellow;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+header nav ul li a:active {
+    text-decoration: none;
+    color: yellow;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+figure {
+    margin: 20px 0 auto;
+    background-color: skyblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+figure img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px double rgb(0, 91, 128);
+}
+
+figure p {
+    border-radius: 20px;
+    padding: 5px;
+    width: 250px;
+    margin: 15px auto 1px;
+    text-align: center;
+    background-color: rgb(0, 91, 128);
+    color: white;
+}
+
+article {
+    margin: auto;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    color: skyblue;
+}
+
+article .judul-2 {
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 91, 128);
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 5px;
+    width: 200px;
+}
+
+article .judul-3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 91, 128);
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+article iframe {
+    margin-top: 20px;
+}
+
+.card {
+    width: 280px;
+    margin: auto;
+    background-color: skyblue;
+    border-radius: 20px;
+    color: rgb(0, 91, 128);
+    padding-bottom: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.card-1 {
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-2 {
+    box-sizing: border-box;
+    float: right;
+}
+
+footer p {
+    background-color: skyblue;
+    padding: 5px;
+    color: rgb(0, 91, 128);
+    text-align: center;
+    font-size: smaller;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 10px;
+}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+.cf {
+     *zoom: 1;
+}
+
+
