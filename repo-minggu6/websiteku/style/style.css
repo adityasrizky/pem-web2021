@@ -179,6 +179,43 @@ article iframe {
     float: right;
 }
 
+article form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid yellow;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+article form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid yellow;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+article form button {
+    width: 100%;
+    background-color: skyblue;
+    color: rgb(0, 91, 128);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+article form button:hover {
+    background-color: yellow;
+}
+
 footer p {
     background-color: skyblue;
     padding: 5px;
@@ -217,5 +254,3 @@ footer p {
 .cf {
      *zoom: 1;
 }
-
-
