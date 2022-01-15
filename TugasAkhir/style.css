@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.jumbotron {
+    font-size: 2vw;
+    padding: 60px;
+    background-image: linear-gradient(#00B0FF, #0085C3);
+    text-align: center;
+    color: white;
+}
+
+.jumbotron span {
+    font-weight: lighter;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    background-color: #0085C3;
+    padding: 5px;
+    position: sticky;
+    top: -1px;
+    z-index: 999;
+}
+
+nav a {
+    font-size: 1.5vw;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.box {
+    flex-grow: 1;
+    background-color: rgba(128, 128, 128, .1);
+}
+
+.cover {
+    max-width: 50%;
+    background-color: white;
+}
+
+.cover img {
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.list {
+    padding: 3vw;
+}
+
+.list ul li {
+    list-style-type: none;
+}
+
+.list ul li a {
+    line-height: 5vw;
+    position: absolute;
+    text-decoration: none;
+    color: #0085C3;
+    font-size: 1.5vw;
+}
+
+.list ul li a:hover {
+    font-weight: bold;
+}
+
+article h2 {
+    font-size: 3vw;
+}
+
+.mini {
+    width: 5vw;
+    height: 5vw;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.big {
+    width: 13vw;
+    height: 13vw;
+    margin: 1vw;
+}
+
+.big:hover {
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, .9);
+    width: 14vw;
+    height: 14vw;
+    transition: 300ms;
+}
+
+.double {
+    flex-grow: 2;
+    background-color: white;
+}
+
+aside header {
+    width: 40%;
+    margin: 50px auto;
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+aside header img {
+    display: block;
+    margin: auto;
+    margin-bottom: 3vw;
+    border-radius: 50%;
+}
+
+aside header span {
+    font-weight: bold;
+    color: #0085C3;
+    font-size: 1.5vw;
+}
+
+aside p {
+    font-size: 1.5vw;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(#0085C3, #00b0ff);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .pict-prof {
+        width: 20vw;
+        height: 20vw;
+    }
+}

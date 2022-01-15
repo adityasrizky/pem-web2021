@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Indienesia</title>
+    <link rel="shortcut icon" type="image" href="img/fav-music.svg"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="jumbotron" id="beranda">
+            <h1>Indie<span>nesia</span></h1>
+            <p>Cari tau apa saja musik yang populer saat ini!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#playlist">Playlist</a></li>
+                <li><a href="#artist">Artist</a></li>
+                <li><a href="#albums">Albums</a></li>
+                <li><a href="#creator">Creator</a></li>
+                <li><a href="#beranda">Beranda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <div class="flex-column">
+                <div id="content">
+                    <div class="flex-row">
+                        <div class="box cover">
+                            <img src="img/playlist.png" alt="Playlist">
+                        </div>
+                        <div class="box list">
+                            <article id="playlist">
+                                <h2>Playlist</h2>
+                                <ul>
+                                    <li>
+                                        <img src="img/pamungkas.jpg" alt="Pamungkas" class="mini">
+                                        <a href="https://youtu.be/CYDtCUNixR4" id="text-display"
+                                            onmouseover="changeText('Dengarkan : Pamungkas - Flying Solo')"
+                                            onmouseout="defaultText('Pamungkas - Flying Solo')">Pamungkas - Flying
+                                            Solo</a></li>
+                                    <li>
+                                        <img src="img/baskara.jpg" alt="Hindia" class="mini">
+                                        <a href="https://youtu.be/DydcU_2m6Vs" id="text-display-2"
+                                            onmouseover="changeText2('Dengarkan : Hindia - Secukupnya')"
+                                            onmouseout="defaultText2('Hindia - Secukupnya')">Hindia - Secukupnya</a>
+                                    </li>
+                                    <li>
+                                        <img src="img/feast.jpg" alt=".Feast" class="mini">
+                                        <a href="https://youtu.be/sBFT_7kZ86Q" id="text-display-3"
+                                            onmouseover="changeText3('Dengarkan : .Feast - Peradaban')"
+                                            onmouseout="defaultText3('.Feast - Peradaban')">.Feast - Peradaban</a></li>
+                                    <li>
+                                        <img src="img/kuntoaji.jpg" alt="Kunto Aji" class="mini">
+                                        <a href="https://youtu.be/yNcGtKAacts" id="text-display-4"
+                                            onmouseover="changeText4('Dengarkan : Kunto Aji - Rehat')"
+                                            onmouseout="defaultText4('Kunto Aji - Rehat')">Kunto Aji - Rehat</a></li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="flex-row">
+                        <div class="box list">
+                            <article id="artist">
+                                <h2>Artist</h2>
+                                <ul>
+                                    <li>
+                                        <img src="img/pp-ardhito.jpg" alt="Ardhito" class="mini">
+                                        <a href="https://id.wikipedia.org/wiki/Ardhito_Pramono" id="text-display-5"
+                                            onmouseover="changeText5('tentang Ardhito Pramono')"
+                                            onmouseout="defaultText5('Ardhito Pramono')">Ardhito
+                                            Pramono</a>
+                                    </li>
+                                    <li>
+                                        <img src="img/pp-baskara.jpg" alt="Baskara Putra" class="mini">
+                                        <a href="https://id.wikipedia.org/wiki/Baskara_Putra" id="text-display-6"
+                                            onmouseover="changeText6('tentang Baskara Putra / Hindia')"
+                                            onmouseout="defaultText6('Baskara Putra / Hindia')">Baskara Putra /
+                                            Hindia</a>
+                                    </li>
+                                    <li>
+                                        <img src="img/pp-kuntoaji.jpg" alt="Kunto Aji" class="mini">
+                                        <a href="https://id.wikipedia.org/wiki/Kunto_Aji" id="text-display-7"
+                                            onmouseover="changeText7('tentang Kunto Aji')"
+                                            onmouseout="defaultText7('Kunto Aji')">Kunto Aji</a></li>
+                                    <li>
+                                        <img src="img/pp-pamungkas.jpg" alt="Pamungkas" class="mini">
+                                        <a href="https://id.wikipedia.org/wiki/Pamungkas" id="text-display-8"
+                                            onmouseover="changeText8('tentang Pamungkas')"
+                                            onmouseout="defaultText8('Pamungkas')">Pamungkas</a></li>
+                                </ul>
+                            </article>
+                        </div>
+                        <div class="box cover">
+                            <img src="img/artist.png" alt="Artist">
+                        </div>
+                    </div>
+
+                    <div class="flex-row">
+                        <div class="box cover">
+                            <img src="img/albums.png" alt="Albums" class="album-cover">
+                        </div>
+                        <div class="box list">
+                            <article id="albums">
+                                <h2>Albums</h2>
+                                <a href="https://www.youtube.com/c/Ardhitopramono/playlists">
+                                    <img src="img/craziest.jpg" alt="Ardhito's Album" class="big"></a>
+                                <a href="https://www.youtube.com/c/Hindia/playlists">
+                                    <img src="img/baskara.jpg" alt="Baskara's Album" class="big"></a>
+                                <a href="https://www.youtube.com/c/Pamungkas/playlists">
+                                    <img src="img/solipsism.jpg" alt="Baskara's Album" class="big"></a>
+                                <a href="https://www.youtube.com/c/kunto+aji/playlists">
+                                    <img src="img/kuntoaji.jpg" alt="Baskara's Album" class="big"></a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+                <aside>
+                    <div class="flex-row">
+                        <div class="box double">
+                            <header>
+                                <article id="creator">
+                                    <h2>Creator</h2>
+                                    <figure>
+                                        <img src="img/pict.jpg" class="pict-prof">
+                                        <figcaption>Front End Developer</figcaption>
+                                    </figure>
+                                    <p><span>Nama | </span>Aditya Saiful Rizky</p>
+                                    <p><span>No. Telepon | </span>08584222xxxx</p>
+                                    <p><span>Email | </span>adityasrzky@gmail.com</p>
+                                </article>
+                            </header>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2022 | Built by Aditya Saiful Rizky</p>
+    </footer>
+
+    <script src="file.js"></script>
+</body>
+
+</html>
